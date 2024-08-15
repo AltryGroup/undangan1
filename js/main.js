@@ -61,12 +61,6 @@ const x = setInterval(function () {
 }, 1000);
 // waktu end
 
-// modal start
-window.onload = function () {
-  document.getElementById("klikmodal").click();
-};
-// modal end
-
 // lagu start
 const lagu = document.getElementById("lagu");
 function playAudio() {
